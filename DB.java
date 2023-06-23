@@ -29,6 +29,7 @@ public class DB {
                 System.out.println("Enter new roll number: ");
                 int newRoll = sc.nextInt();
                 student.setRollNo(newRoll);
+                System.out.println("Updated Successfully!");
                 return;
             }
         }
@@ -43,6 +44,7 @@ public class DB {
                 System.out.println("Enter new Name: ");
                 String newName = sc.next();
                 student.setName(newName);
+                System.out.println("Updated Successfully!");
                 return;
             }
         }
@@ -57,6 +59,7 @@ public class DB {
                 System.out.println("Enter new Fees: ");
                 int newFees = sc.nextInt();
                 student.setRollNo(newFees);
+                System.out.println("Updated Successfully!");
                 return;
             }
         }
@@ -69,6 +72,7 @@ public class DB {
         for (Student student : list) {
             if (student.getRollNo()==roll) {
                 list.remove(student);
+                System.out.println("Deleted Successfully!");
                 return;
             }
         }
