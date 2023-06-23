@@ -8,7 +8,6 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         
         while (true) {
-            System.out.println("--------------------------------------");
             System.out.println("1. Enter 1 for inserting a record");
             System.out.println("2. Enter 2 for viewing all records");
             System.out.println("3. Enter 3 for deleting a record");
