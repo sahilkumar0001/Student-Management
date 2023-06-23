@@ -28,7 +28,6 @@ public class Service {
                 System.out.println("ENter roll number: ");
                 int roll = sc.nextInt();
                 db.editRoll(roll);
-                System.out.println("called");
                 break;
             case 2:
                 System.out.println("ENter Name: ");
